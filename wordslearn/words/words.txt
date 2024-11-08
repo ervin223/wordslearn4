@@ -1,0 +1,79 @@
+﻿Aed
+Garden
+A plot of ground where plants such as flowers, vegetables, or trees are cultivated for enjoyment or consumption.
+
+Mägi
+Mountain
+A large natural elevation of the earth's surface, rising abruptly from the surrounding level.
+
+Jõgi
+River
+A large, natural stream of water flowing in a channel to the sea, a lake, or another river.
+
+Ilm
+Weather
+The state of the atmosphere at a place and time, including temperature, humidity, and precipitation.
+
+Sõna
+Word
+A single distinct meaningful element of speech or writing, used to communicate ideas.
+
+Muusika
+Music
+Vocal or instrumental sounds combined to produce harmony, melody, or rhythm that expresses emotions or ideas.
+
+Kivi
+Stone
+A hard, solid nonmetallic mineral matter of which rock is made, often used for building.
+
+Tunne
+Feeling
+An emotional state or reaction to a situation, person, or experience.
+
+Unistus
+Dream
+A series of thoughts, images, or emotions occurring during sleep or a cherished aspiration or goal.
+
+Kevad
+Spring
+The season after winter and before summer, when plants begin to grow and temperatures rise.
+
+Puu
+Tree
+A tall, perennial plant with a trunk and branches made of wood, commonly found in forests and parks.
+
+Perekond
+Family
+A group of one or more parents and their children living together as a unit or close relatives by blood or marriage.
+
+Õpilane
+Student
+A person who is studying, especially in a school, college, or university.
+
+Naer
+Laughter
+The act of laughing, a sound or reaction often expressing amusement, joy, or relief.
+
+Õhk
+Air
+The invisible gaseous substance surrounding the Earth, a mixture mainly of oxygen and nitrogen.
+
+Öö
+Night
+The period of darkness in each twenty-four hours, when the sun is below the horizon.
+
+Kuu
+Moon
+The natural satellite of the Earth, visible primarily at night and often illuminating the sky.
+
+Süda
+Heart
+The muscular organ in humans and animals that pumps blood, or metaphorically, the center of emotion and love.
+
+Kingitus
+Gift
+An item given willingly to someone without payment; a present, often symbolizing care or appreciation.
+
+Õun
+Apple
+A round fruit with red, green, or yellow skin, sweet or tart flavor, commonly eaten raw or used in cooking.

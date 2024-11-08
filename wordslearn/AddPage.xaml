@@ -1,0 +1,20 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="wordslearn.AddPage"
+             Title="Let's add some words!">
+    
+    <StackLayout Padding="20">
+        <Label Text="Name" />
+        <Entry x:Name="entryName" />
+
+        <Label Text="Translation" />
+        <Entry x:Name="entryTranslation" />
+
+        <Label Text="Explanation" />
+        <Entry x:Name="entryExplanation" />
+
+     
+
+        <Button Text="Save" Clicked="OnSaveWordClicked" />
+    </StackLayout>
+</ContentPage>

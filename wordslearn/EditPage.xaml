@@ -1,0 +1,23 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="wordslearn.EditPage"
+             Title="Editing">
+
+    <StackLayout Padding="10">
+        <Entry x:Name="entryName" Placeholder="Name" Text="{Binding Name}" />
+        <Entry x:Name="entryTranslation" Placeholder="Translation" Text="{Binding Translation}" />
+        <Entry x:Name="entryExplanation" Placeholder="Explanation" Text="{Binding Explanation}" />
+
+        <!-- Category Picker -->
+        <Picker x:Name="categoryPicker" Title="Category" SelectedItem="{Binding Category}">
+            <Picker.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>Not learned</x:String>
+                    <x:String>Learned</x:String>
+                </x:Array>
+            </Picker.ItemsSource>
+        </Picker>
+
+        <Button Text="Сохранить" Clicked="OnSaveClicked" />
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,39 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="wordslearn.MainPage"
+             Title="Õpime võõrkeelt!"
+             BackgroundColor="#f5f5f5">
+
+    <StackLayout Padding="15" Spacing="20">
+
+        <CarouselView x:Name="WordsCarousel" ItemsSource="{Binding Words}">
+            <CarouselView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout Padding="15" Spacing="10" BackgroundColor="White" Margin="5">
+                        <Label Text="{Binding Name}" FontSize="Large" FontAttributes="Bold" TextColor="#2e3b4e" HorizontalOptions="Center" />
+                        <Label Text="{Binding Translation}" FontSize="Medium" TextColor="#6c7c8d" HorizontalOptions="Center" />
+                        <Label Text="{Binding Explanation}" FontSize="Small" TextColor="#8a9ba8" />
+                        <Label Text="{Binding Category}" FontSize="Small" TextColor="#8a9ba8" />
+                    </StackLayout>
+                </DataTemplate>
+            </CarouselView.ItemTemplate>
+        </CarouselView>
+        <StackLayout>
+            <Label Text="Total words:" FontSize="Medium" TextColor="#2e3b4e" />
+            <Label x:Name="totalWordsCountLabel" FontSize="Medium" TextColor="#6c7c8d" />
+        </StackLayout>
+        <StackLayout>
+            <Label Text="Learned:" FontSize="Medium" TextColor="#2e3b4e" />
+            <Label Text="{Binding LearnedCount}" FontSize="Medium" TextColor="#6c7c8d" />
+        </StackLayout>
+        <StackLayout>
+            <Label Text="Not learned:" FontSize="Medium" TextColor="#2e3b4e" />
+            <Label Text="{Binding NotLearnedCount}" FontSize="Medium" TextColor="#6c7c8d" />
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="15">
+            <Button Text="Add" BackgroundColor="#4CAF50" TextColor="White" Clicked="OnAddWordClicked" CornerRadius="5" />
+            <Button Text="Edit" BackgroundColor="#FFC107" TextColor="White" Clicked="OnEditWordClicked" CornerRadius="5" />
+            <Button Text="Delete" BackgroundColor="#F44336" TextColor="White" Clicked="OnDeleteWordClicked" CornerRadius="5" />
+        </StackLayout>
+    </StackLayout>
+</ContentPage>
